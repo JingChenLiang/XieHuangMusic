@@ -15,8 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void beginScan(View view) {
-        //scan
-        ToastUtils.showToast("开始扫描");
+    public void toWenLiangWorkspace(View view) {
+        ToastUtils.showToast("去文亮的代码空间实验室");
+    }
+
+    public void toChenLiangWorkspace(View view) {
+        ToastUtils.showToast("去晨亮的代码空间实验室");
     }
 }
