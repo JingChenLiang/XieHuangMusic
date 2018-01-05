@@ -45,4 +45,8 @@ dependencies {
     compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
     //结合RxJava使用
     compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    //miui 弹性OverScroll  + Project add maven
+    compile 'com.github.XanderWang:elasticity:1.0.0'
+    //over-scroll
+    compile 'me.everything:overscroll-decor-android:1.0.4'
 }

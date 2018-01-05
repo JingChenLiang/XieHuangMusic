@@ -12,6 +12,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
 import xiehuang.com.android.xiehuangmusic.R;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter.CommonAdapter;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
@@ -41,6 +42,8 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
     private void initView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.id_recyclerview);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        OverScrollDecoratorHelper.setUpOverScroll(mRecyclerView, OverScrollDecoratorHelper.ORIENTATION_VERTICAL);
+
         mAdapter = new CommonAdapter<String>(this, R.layout.item_list, mDatas) {
             @Override
             protected void convert(ViewHolder holder, String s, int position) {
