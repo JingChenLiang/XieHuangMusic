@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.application;
+package xiehuang.com.android.xiehuangmusic.jingcl.application;
 
 import android.app.Application;
 import android.content.Context;

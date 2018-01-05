@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.scan;
+package xiehuang.com.android.xiehuangmusic.jingcl.scan;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

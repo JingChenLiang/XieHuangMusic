@@ -1,11 +1,13 @@
-package xiehuang.com.android.xiehuangmusic.homepage;
+package xiehuang.com.android.xiehuangmusic.jingcl.homepage;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import xiehuang.com.android.xiehuangmusic.R;
-import xiehuang.com.android.xiehuangmusic.utils.ToastUtils;
+import xiehuang.com.android.xiehuangmusic.jingcl.JingclActivity;
+import xiehuang.com.android.xiehuangmusic.zhuwl.ZhuwlActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toWenLiangWorkspace(View view) {
-        ToastUtils.showToast("去文亮的代码空间实验室");
+        startActivity(new Intent(this, ZhuwlActivity.class));
     }
 
     public void toChenLiangWorkspace(View view) {
-        ToastUtils.showToast("去晨亮的代码空间实验室");
+        startActivity(new Intent(this, JingclActivity.class));
     }
 }
