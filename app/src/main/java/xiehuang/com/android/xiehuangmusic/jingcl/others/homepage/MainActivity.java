@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.homepage;
+package xiehuang.com.android.xiehuangmusic.jingcl.others.homepage;
 
 import android.content.Intent;
 import android.os.Bundle;

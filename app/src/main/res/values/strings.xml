@@ -3,4 +3,6 @@
     <string name="to_scan">to scan</string>
     <string name="toWenLiangWorkSpace">去文亮的代码空间实验室</string>
     <string name="toChenLiangWorkSpace">去晨亮的代码空间实验室</string>
+    <string name="test_recycleview">测试RecycleView</string>
+    <string name="loading">正在加载...</string>
 </resources>

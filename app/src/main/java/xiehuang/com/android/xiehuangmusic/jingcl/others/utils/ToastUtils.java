@@ -1,8 +1,8 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.utils;
+package xiehuang.com.android.xiehuangmusic.jingcl.others.utils;
 
 import android.widget.Toast;
 
-import xiehuang.com.android.xiehuangmusic.jingcl.application.MusicApplication;
+import xiehuang.com.android.xiehuangmusic.jingcl.others.application.MusicApplication;
 
 public class ToastUtils {
 
