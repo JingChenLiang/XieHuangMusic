@@ -1,18 +1,30 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.AdapterUtils;
+import xiehuang.com.android.xiehuangmusic.R;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.base.ViewHolder;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.utils.AdapterUtils;
 
 /**
  * Created by erliang on 2018/01/05
  */
 public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+
+    /**
+     * 根据数据处理状态
+     *
+     * mData
+     * 1.没有内容了
+     * 2.没有网络
+     */
+
     public static final int ITEM_TYPE_LOAD_MORE = Integer.MAX_VALUE - 2;
 
     private RecyclerView.Adapter mInnerAdapter;
@@ -21,15 +33,6 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
 
     public LoadMoreItemAdapter(RecyclerView.Adapter adapter) {
         mInnerAdapter = adapter;
-    }
-
-    private boolean hasLoadMore() {
-        return mLoadMoreView != null || mLoadMoreLayoutId != 0;
-    }
-
-
-    private boolean isShowLoadMore(int position) {
-        return hasLoadMore() && (position >= mInnerAdapter.getItemCount());
     }
 
     @Override
@@ -49,6 +52,17 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
             } else {
                 holder = ViewHolder.createViewHolder(parent.getContext(), parent, mLoadMoreLayoutId);
             }
+
+            //没有更多数据
+            TextView loadingText = holder.getView(R.id.loading_text);
+            ProgressBar loadingPro = holder.getView(R.id.loading_progressBar);
+            loadingText.setText("没有更多内容");
+            loadingPro.setVisibility(View.GONE);
+
+            //没有网络
+            loadingText.setText("网络未连接");
+
+
             return holder;
         }
         return mInnerAdapter.onCreateViewHolder(parent, viewType);
@@ -91,6 +105,20 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
         }
     }
 
+    @Override
+    public int getItemCount() {
+        return mInnerAdapter.getItemCount() + (hasLoadMore() ? 1 : 0);
+    }
+
+    private boolean hasLoadMore() {
+        return mLoadMoreView != null || mLoadMoreLayoutId != 0;
+    }
+
+
+    private boolean isShowLoadMore(int position) {
+        return hasLoadMore() && (position >= mInnerAdapter.getItemCount());
+    }
+
     private void setFullSpan(RecyclerView.ViewHolder holder) {
         ViewGroup.LayoutParams lp = holder.itemView.getLayoutParams();
 
@@ -101,12 +129,6 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
             p.setFullSpan(true);
         }
     }
-
-    @Override
-    public int getItemCount() {
-        return mInnerAdapter.getItemCount() + (hasLoadMore() ? 1 : 0);
-    }
-
 
     public interface OnLoadMoreListener {
         void onLoadMoreRequested();
@@ -129,5 +151,13 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
     public LoadMoreItemAdapter setLoadMoreView(int layoutId) {
         mLoadMoreLayoutId = layoutId;
         return this;
+    }
+
+
+    private int mItemCount;
+    private boolean isDataChange() {
+        mItemCount = mInnerAdapter.getItemCount();
+
+        return true;
     }
 }

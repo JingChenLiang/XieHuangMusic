@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter;
 
 import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.widget.GridLayoutManager;
@@ -6,8 +6,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.AdapterUtils;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.base.ViewHolder;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.utils.AdapterUtils;
 
 /**
  * Created by erliang on 2018/01/05

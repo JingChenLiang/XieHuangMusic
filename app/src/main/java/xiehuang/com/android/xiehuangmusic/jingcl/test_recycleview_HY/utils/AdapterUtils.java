@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.utils;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;

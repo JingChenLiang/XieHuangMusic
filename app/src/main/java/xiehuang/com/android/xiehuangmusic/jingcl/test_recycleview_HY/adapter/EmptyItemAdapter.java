@@ -1,12 +1,11 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.View;
 import android.view.ViewGroup;
 
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.AdapterUtils;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.base.ViewHolder;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.utils.AdapterUtils;
 
 /**
  * Created by erliang on 2018/01/05
@@ -15,7 +14,6 @@ public class EmptyItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewH
     public static final int ITEM_TYPE_EMPTY = Integer.MAX_VALUE - 1;
 
     private RecyclerView.Adapter mInnerAdapter;
-    private View mEmptyView;
     private int mEmptyLayoutId;
 
 
@@ -23,19 +21,20 @@ public class EmptyItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewH
         mInnerAdapter = adapter;
     }
 
-    private boolean isEmpty() {
-        return (mEmptyView != null || mEmptyLayoutId != 0) && mInnerAdapter.getItemCount() == 0;
+    @Override
+    public int getItemViewType(int position) {
+        if (isEmpty()) {
+            return ITEM_TYPE_EMPTY;
+        }
+        return mInnerAdapter.getItemViewType(position);
     }
+
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (isEmpty()) {
             ViewHolder holder;
-            if (mEmptyView != null) {
-                holder = ViewHolder.createViewHolder(parent.getContext(), mEmptyView);
-            } else {
-                holder = ViewHolder.createViewHolder(parent.getContext(), parent, mEmptyLayoutId);
-            }
+            holder = ViewHolder.createViewHolder(parent.getContext(), parent, mEmptyLayoutId);
             return holder;
         }
         return mInnerAdapter.onCreateViewHolder(parent, viewType);
@@ -55,8 +54,6 @@ public class EmptyItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewH
                 return 1;
             }
         });
-
-
     }
 
     @Override
@@ -65,15 +62,6 @@ public class EmptyItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewH
         if (isEmpty()) {
             AdapterUtils.setFullSpan(holder);
         }
-    }
-
-
-    @Override
-    public int getItemViewType(int position) {
-        if (isEmpty()) {
-            return ITEM_TYPE_EMPTY;
-        }
-        return mInnerAdapter.getItemViewType(position);
     }
 
     @Override
@@ -92,9 +80,8 @@ public class EmptyItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewH
         return mInnerAdapter.getItemCount();
     }
 
-
-    public void setEmptyView(View emptyView) {
-        mEmptyView = emptyView;
+    private boolean isEmpty() {
+        return (mEmptyLayoutId != 0) && mInnerAdapter.getItemCount() == 0;
     }
 
     public void setEmptyView(int layoutId) {

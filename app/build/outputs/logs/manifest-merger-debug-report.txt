@@ -102,10 +102,10 @@ activity#xiehuang.com.android.xiehuangmusic.jingcl.test_scan.ScanMusicActivity
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:9-21:20
 	android:name
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:19-69
-activity#xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.activity.MultiRecycleViewActivity
+activity#xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.activity.MultiRecycleViewActivity
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:9-23:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:19-92
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:19-95
 activity#xiehuang.com.android.xiehuangmusic.jingcl.others.JingclActivity
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:9-25:20
 	android:name

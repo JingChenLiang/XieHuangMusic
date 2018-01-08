@@ -1,12 +1,12 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 
 import java.util.List;
 
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ItemViewDelegate;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.base.ItemViewDelegate;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.base.ViewHolder;
 
 /**
  * Created by erliang on 2018/01/05
