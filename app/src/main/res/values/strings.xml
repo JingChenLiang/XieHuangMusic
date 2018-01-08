@@ -4,5 +4,6 @@
     <string name="toWenLiangWorkSpace">去文亮的代码空间实验室</string>
     <string name="toChenLiangWorkSpace">去晨亮的代码空间实验室</string>
     <string name="test_recycleview">测试RecycleView</string>
-    <string name="loading">正在加载...</string>
+    <string name="loading">努力加载中...</string>
+    <string name="no_more_data">没有更多内容</string>
 </resources>

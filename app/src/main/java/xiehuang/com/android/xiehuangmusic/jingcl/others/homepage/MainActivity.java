@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import xiehuang.com.android.xiehuangmusic.R;
-import xiehuang.com.android.xiehuangmusic.jingcl.JingclActivity;
+import xiehuang.com.android.xiehuangmusic.jingcl.others.JingclActivity;
 import xiehuang.com.android.xiehuangmusic.zhuwl.ZhuwlActivity;
 
 public class MainActivity extends AppCompatActivity {

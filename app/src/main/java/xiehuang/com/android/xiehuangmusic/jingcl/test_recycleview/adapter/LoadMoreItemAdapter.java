@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.wrapper;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -7,19 +7,19 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.WrapperUtils;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.AdapterUtils;
 
 /**
  * Created by erliang on 2018/01/05
  */
-public class LoadMoreWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static final int ITEM_TYPE_LOAD_MORE = Integer.MAX_VALUE - 2;
 
     private RecyclerView.Adapter mInnerAdapter;
     private View mLoadMoreView;
     private int mLoadMoreLayoutId;
 
-    public LoadMoreWrapper(RecyclerView.Adapter adapter) {
+    public LoadMoreItemAdapter(RecyclerView.Adapter adapter) {
         mInnerAdapter = adapter;
     }
 
@@ -67,7 +67,7 @@ public class LoadMoreWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        WrapperUtils.onAttachedToRecyclerView(mInnerAdapter, recyclerView, new WrapperUtils.SpanSizeCallback() {
+        AdapterUtils.onAttachedToRecyclerView(mInnerAdapter, recyclerView, new AdapterUtils.SpanSizeCallback() {
             @Override
             public int getSpanSize(GridLayoutManager layoutManager, GridLayoutManager.SpanSizeLookup oldLookup, int position) {
                 if (isShowLoadMore(position)) {
@@ -114,19 +114,19 @@ public class LoadMoreWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     private OnLoadMoreListener mOnLoadMoreListener;
 
-    public LoadMoreWrapper setOnLoadMoreListener(OnLoadMoreListener loadMoreListener) {
+    public LoadMoreItemAdapter setOnLoadMoreListener(OnLoadMoreListener loadMoreListener) {
         if (loadMoreListener != null) {
             mOnLoadMoreListener = loadMoreListener;
         }
         return this;
     }
 
-    public LoadMoreWrapper setLoadMoreView(View loadMoreView) {
+    public LoadMoreItemAdapter setLoadMoreView(View loadMoreView) {
         mLoadMoreView = loadMoreView;
         return this;
     }
 
-    public LoadMoreWrapper setLoadMoreView(int layoutId) {
+    public LoadMoreItemAdapter setLoadMoreView(int layoutId) {
         mLoadMoreLayoutId = layoutId;
         return this;
     }

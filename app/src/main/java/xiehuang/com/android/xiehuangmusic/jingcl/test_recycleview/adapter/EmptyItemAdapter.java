@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.wrapper;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -6,12 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.WrapperUtils;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.AdapterUtils;
 
 /**
  * Created by erliang on 2018/01/05
  */
-public class EmptyWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class EmptyItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static final int ITEM_TYPE_EMPTY = Integer.MAX_VALUE - 1;
 
     private RecyclerView.Adapter mInnerAdapter;
@@ -19,7 +19,7 @@ public class EmptyWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolde
     private int mEmptyLayoutId;
 
 
-    public EmptyWrapper(RecyclerView.Adapter adapter) {
+    public EmptyItemAdapter(RecyclerView.Adapter adapter) {
         mInnerAdapter = adapter;
     }
 
@@ -43,7 +43,7 @@ public class EmptyWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        WrapperUtils.onAttachedToRecyclerView(mInnerAdapter, recyclerView, new WrapperUtils.SpanSizeCallback() {
+        AdapterUtils.onAttachedToRecyclerView(mInnerAdapter, recyclerView, new AdapterUtils.SpanSizeCallback() {
             @Override
             public int getSpanSize(GridLayoutManager gridLayoutManager, GridLayoutManager.SpanSizeLookup oldLookup, int position) {
                 if (isEmpty()) {
@@ -63,7 +63,7 @@ public class EmptyWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolde
     public void onViewAttachedToWindow(RecyclerView.ViewHolder holder) {
         mInnerAdapter.onViewAttachedToWindow(holder);
         if (isEmpty()) {
-            WrapperUtils.setFullSpan(holder);
+            AdapterUtils.setFullSpan(holder);
         }
     }
 

@@ -10,6 +10,7 @@ MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:17:1-28:12
 MERGED from [io.reactivex:rxandroid:1.2.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/ac50963be2f5d25385ab823bf3b5af4a/AndroidManifest.xml:15:1-21:12
 MERGED from [com.squareup.sqlbrite:sqlbrite:1.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/sqlbrite-1.1.1.aar/7630ee8bf22e15b3669bcb9f777a0ad2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.orhanobut:logger:2.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/17452f4a4de2fef9552bc1cba0ecdf3e/AndroidManifest.xml:2:1-8:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/smile/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/26b977338cb0346460a2fcc22fec3369/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:transition:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4b367347fa8749773238ae0fd837a6c4/AndroidManifest.xml:17:1-28:12
@@ -101,14 +102,14 @@ activity#xiehuang.com.android.xiehuangmusic.jingcl.test_scan.ScanMusicActivity
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:9-21:20
 	android:name
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:19-69
-activity#xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.MultiRecycleViewActivity
+activity#xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.activity.MultiRecycleViewActivity
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:9-23:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:19-83
-activity#xiehuang.com.android.xiehuangmusic.jingcl.JingclActivity
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:19-92
+activity#xiehuang.com.android.xiehuangmusic.jingcl.others.JingclActivity
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:9-25:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:19-56
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:19-63
 activity#xiehuang.com.android.xiehuangmusic.zhuwl.ZhuwlActivity
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:26:9-27:20
 	android:name
@@ -129,6 +130,8 @@ MERGED from [io.reactivex:rxandroid:1.2.1] /Users/smile/.gradle/caches/transform
 MERGED from [io.reactivex:rxandroid:1.2.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/ac50963be2f5d25385ab823bf3b5af4a/AndroidManifest.xml:19:5-43
 MERGED from [com.squareup.sqlbrite:sqlbrite:1.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/sqlbrite-1.1.1.aar/7630ee8bf22e15b3669bcb9f777a0ad2/AndroidManifest.xml:5:5-43
 MERGED from [com.squareup.sqlbrite:sqlbrite:1.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/sqlbrite-1.1.1.aar/7630ee8bf22e15b3669bcb9f777a0ad2/AndroidManifest.xml:5:5-43
+MERGED from [com.orhanobut:logger:2.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/17452f4a4de2fef9552bc1cba0ecdf3e/AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/17452f4a4de2fef9552bc1cba0ecdf3e/AndroidManifest.xml:6:5-43
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/smile/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/26b977338cb0346460a2fcc22fec3369/AndroidManifest.xml:5:5-7:41

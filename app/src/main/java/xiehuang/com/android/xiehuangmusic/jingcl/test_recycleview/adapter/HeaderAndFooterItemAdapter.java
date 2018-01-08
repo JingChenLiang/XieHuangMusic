@@ -1,4 +1,4 @@
-package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.wrapper;
+package xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter;
 
 import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.widget.GridLayoutManager;
@@ -7,12 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.WrapperUtils;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.utils.AdapterUtils;
 
 /**
  * Created by erliang on 2018/01/05
  */
-public class HeaderAndFooterWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class HeaderAndFooterItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final int BASE_ITEM_TYPE_HEADER = 100000;
     private static final int BASE_ITEM_TYPE_FOOTER = 200000;
 
@@ -21,7 +21,7 @@ public class HeaderAndFooterWrapper<T> extends RecyclerView.Adapter<RecyclerView
 
     private RecyclerView.Adapter mInnerAdapter;
 
-    public HeaderAndFooterWrapper(RecyclerView.Adapter adapter) {
+    public HeaderAndFooterItemAdapter(RecyclerView.Adapter adapter) {
         mInnerAdapter = adapter;
     }
 
@@ -71,7 +71,7 @@ public class HeaderAndFooterWrapper<T> extends RecyclerView.Adapter<RecyclerView
 
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        WrapperUtils.onAttachedToRecyclerView(mInnerAdapter, recyclerView, new WrapperUtils.SpanSizeCallback() {
+        AdapterUtils.onAttachedToRecyclerView(mInnerAdapter, recyclerView, new AdapterUtils.SpanSizeCallback() {
             @Override
             public int getSpanSize(GridLayoutManager layoutManager, GridLayoutManager.SpanSizeLookup oldLookup, int position) {
                 int viewType = getItemViewType(position);
@@ -93,7 +93,7 @@ public class HeaderAndFooterWrapper<T> extends RecyclerView.Adapter<RecyclerView
         mInnerAdapter.onViewAttachedToWindow(holder);
         int position = holder.getLayoutPosition();
         if (isHeaderViewPos(position) || isFooterViewPos(position)) {
-            WrapperUtils.setFullSpan(holder);
+            AdapterUtils.setFullSpan(holder);
         }
     }
 

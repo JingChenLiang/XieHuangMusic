@@ -19,9 +19,9 @@
         </activity>
         <activity android:name=".jingcl.test_scan.ScanMusicActivity">
         </activity>
-        <activity android:name=".jingcl.test_recycleview.MultiRecycleViewActivity">
+        <activity android:name=".jingcl.test_recycleview.activity.MultiRecycleViewActivity">
         </activity>
-        <activity android:name=".jingcl.JingclActivity">
+        <activity android:name=".jingcl.others.JingclActivity">
         </activity>
         <activity android:name=".zhuwl.ZhuwlActivity">
         </activity>
