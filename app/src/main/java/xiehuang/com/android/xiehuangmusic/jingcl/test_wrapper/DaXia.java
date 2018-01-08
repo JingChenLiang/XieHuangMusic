@@ -11,5 +11,4 @@ public abstract class DaXia {
 
     public abstract void gongJi();
 
-    public abstract void yinShen();
 }

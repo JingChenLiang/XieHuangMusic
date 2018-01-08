@@ -19,9 +19,9 @@ import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter.EmptyI
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter.HeaderAndFooterItemAdapter;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.adapter.LoadMoreItemAdapter;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview.base.ViewHolder;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.ZhangFengXia;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.XiaoLongNv;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.YangGuo;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.zhuangshi.ShuoWrapper;
-import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.zhuangshi.XuLiWrapper;
 
 public class MultiRecycleViewActivity extends AppCompatActivity {
 
@@ -50,16 +50,18 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
 
     private void testWrapper() {
 
-        ZhangFengXia zhangFengXia = new ZhangFengXia();
-        //ZhangFengXia有『说』的功能
-        ShuoWrapper shuoWrapper = new ShuoWrapper(zhangFengXia);
-        //ZhangFengXia有『跳』的功能
-        XuLiWrapper xuLiWrapper = new XuLiWrapper(shuoWrapper);
+        XiaoLongNv xiaoLongNv = new XiaoLongNv();
+        //小龙女先对杨过『说』  我恨你  后再暴击
+        ShuoWrapper xLNshuoWrapper = new ShuoWrapper(xiaoLongNv, "小龙女：我恨你");
+        xLNshuoWrapper.gongJi();
 
-        //先蓄力 再 攻击
-        xuLiWrapper.gongJi();
-        //先说 再 隐身
-        xuLiWrapper.yinShen();
+        YangGuo yangGuo = new YangGuo();
+        //杨过对小龙女『说』    我爱你  后再暴击
+        //代理:
+        //装饰：保持原有功能的基础上，在前面或后面添加新的功能，甚至可以重写原有功能
+        ShuoWrapper ygShuoWrapper = new ShuoWrapper(yangGuo, "杨过：我爱你");
+        ygShuoWrapper.gongJi();
+
     }
 
     private void initView() {
@@ -111,6 +113,12 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
 //        mEmptyItemAdapter = new EmptyItemAdapter(mHeaderAndFooterItemAdapter);
 //        mEmptyItemAdapter.setEmptyView(R.layout.empty_view);
 
+//        mEmptyItemAdapter = new EmptyItemAdapter(
+//                new LoadMoreItemAdapter(
+//                        new HeaderAndFooterItemAdapter(mNormalAdapter)));
+//        mEmptyItemAdapter.setEmptyView(R.layout.default_loading);
+
+        //最后装饰完的adapter
         mRecyclerView.setAdapter(mLoadMoreItemAdapter);
     }
 

@@ -9,20 +9,21 @@ import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.DaXia;
  */
 
 public class ShuoWrapper extends DaXiaWrapper {
-    public ShuoWrapper() {
+
+    private String mStr;
+
+    public ShuoWrapper(DaXia daXia, String str) {
+        super(daXia);
+        mStr = str;
     }
 
-    public ShuoWrapper(DaXia daXia) {
-        super(daXia);
+    private void shuo(String str) {
+        Logger.i(str);
     }
 
     @Override
-    public void yinShen() {
-        shuo();
-        super.yinShen();
-    }
-
-    private void shuo() {
-        Logger.i("啦啦啦~  你也来打我啊");
+    public void gongJi() {
+        shuo(mStr);
+        super.gongJi();
     }
 }

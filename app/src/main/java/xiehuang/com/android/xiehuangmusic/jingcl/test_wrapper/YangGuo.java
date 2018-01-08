@@ -7,19 +7,14 @@ import com.orhanobut.logger.Logger;
  * Created by erliang on 2018/1/7.
  */
 
-public class SanXia extends DaXia {
+public class YangGuo extends DaXia {
 
-    public SanXia() {
+    public YangGuo() {
     }
 
     @Override
     public void gongJi() {
-        Logger.i("三峡攻击");
-    }
-
-    @Override
-    public void yinShen() {
-        Logger.i("三峡隐身");
+        Logger.i("杨过没忍心攻击，档了一下，趁势，一下把小龙女抱入怀中");
     }
 
 }
