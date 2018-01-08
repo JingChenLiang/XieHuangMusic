@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="header_hint_view_color">#dfeffc</color>
+    <color name="header_hint_view_text_color">#198df3</color>
+
+    <color name="bottom_loading_text_color">#99000000</color>
+    <color name="bottom_no_net_text_color">#99000000</color>
 </resources>
