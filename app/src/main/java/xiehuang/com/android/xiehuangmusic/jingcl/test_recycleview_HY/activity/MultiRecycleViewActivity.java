@@ -72,20 +72,22 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
         mHeaderAndFooterItemAdapter = new HeaderAndFooterItemAdapter(mNormalAdapter);
 
         mLoadMoreItemAdapter = new LoadMoreItemAdapter(mHeaderAndFooterItemAdapter);
-        mLoadMoreItemAdapter.setLoadMoreView(R.layout.default_loading);
+        mLoadMoreItemAdapter.setLoadMoreView(R.layout.recycleview_load_view);
         mLoadMoreItemAdapter.setOnLoadMoreListener(new LoadMoreItemAdapter.OnLoadMoreListener() {
             @Override
-            public void onLoadMoreRequested() {
+            public boolean onLoadMoreRequested() {
                 //load data then update
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         for (int i = 0; i < 5; i++) {
-                            mDatas.add("Add:" + i);
+//                            mDatas.add("Add:" + i);
                         }
+                        //有新的数据就刷新  TODO
                         mLoadMoreItemAdapter.notifyDataSetChanged();
                     }
                 }, 500);
+                return false;
             }
         });
 

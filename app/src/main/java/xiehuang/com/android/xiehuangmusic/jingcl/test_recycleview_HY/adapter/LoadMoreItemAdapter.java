@@ -19,17 +19,16 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
 
     /**
      * 根据数据处理状态
-     *
+     * <p>
      * mData
      * 1.没有内容了
      * 2.没有网络
      */
 
     public static final int ITEM_TYPE_LOAD_MORE = Integer.MAX_VALUE - 2;
-
     private RecyclerView.Adapter mInnerAdapter;
-    private View mLoadMoreView;
     private int mLoadMoreLayoutId;
+    boolean mLoadMoreEntity;
 
     public LoadMoreItemAdapter(RecyclerView.Adapter adapter) {
         mInnerAdapter = adapter;
@@ -47,21 +46,20 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == ITEM_TYPE_LOAD_MORE) {
             ViewHolder holder;
-            if (mLoadMoreView != null) {
-                holder = ViewHolder.createViewHolder(parent.getContext(), mLoadMoreView);
-            } else {
-                holder = ViewHolder.createViewHolder(parent.getContext(), parent, mLoadMoreLayoutId);
-            }
-
-            //没有更多数据
+            holder = ViewHolder.createViewHolder(parent.getContext(), parent, mLoadMoreLayoutId);
             TextView loadingText = holder.getView(R.id.loading_text);
             ProgressBar loadingPro = holder.getView(R.id.loading_progressBar);
-            loadingText.setText("没有更多内容");
-            loadingPro.setVisibility(View.GONE);
 
             //没有网络
-            loadingText.setText("网络未连接");
-
+            if (true) {
+                loadingPro.setVisibility(View.GONE);
+                loadingText.setText("网络未连接");
+            }
+            //没有更多数据
+            if (mLoadMoreEntity == false) {
+                loadingPro.setVisibility(View.GONE);
+                loadingText.setText("没有更多内容");
+            }
 
             return holder;
         }
@@ -72,7 +70,7 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (isShowLoadMore(position)) {
             if (mOnLoadMoreListener != null) {
-                mOnLoadMoreListener.onLoadMoreRequested();
+                mLoadMoreEntity = mOnLoadMoreListener.onLoadMoreRequested();
             }
             return;
         }
@@ -111,7 +109,7 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
     }
 
     private boolean hasLoadMore() {
-        return mLoadMoreView != null || mLoadMoreLayoutId != 0;
+        return mLoadMoreLayoutId != 0;
     }
 
 
@@ -131,7 +129,7 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
     }
 
     public interface OnLoadMoreListener {
-        void onLoadMoreRequested();
+        boolean onLoadMoreRequested();
     }
 
     private OnLoadMoreListener mOnLoadMoreListener;
@@ -143,21 +141,9 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
         return this;
     }
 
-    public LoadMoreItemAdapter setLoadMoreView(View loadMoreView) {
-        mLoadMoreView = loadMoreView;
-        return this;
-    }
-
     public LoadMoreItemAdapter setLoadMoreView(int layoutId) {
         mLoadMoreLayoutId = layoutId;
         return this;
     }
 
-
-    private int mItemCount;
-    private boolean isDataChange() {
-        mItemCount = mInnerAdapter.getItemCount();
-
-        return true;
-    }
 }
