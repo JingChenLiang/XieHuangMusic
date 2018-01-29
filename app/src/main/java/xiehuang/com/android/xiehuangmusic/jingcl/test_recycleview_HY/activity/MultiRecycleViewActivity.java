@@ -17,6 +17,9 @@ import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter.Com
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter.HeaderAndFooterItemAdapter;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter.LoadMoreItemAdapter;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.base.ViewHolder;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.XiaoLongNv;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.YangGuo;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_wrapper.zhuangshi.ShuoWrapper;
 
 public class MultiRecycleViewActivity extends AppCompatActivity {
 
@@ -37,7 +40,7 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
             mDatas.add((char) i + "");
         }
 
-        //        testWrapper();
+        testWrapper();
 
         initView();
 
@@ -81,7 +84,7 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         for (int i = 0; i < 5; i++) {
-//                            mDatas.add("Add:" + i);
+                            //                            mDatas.add("Add:" + i);
                         }
                         //有新的数据就刷新  TODO
                         mLoadMoreItemAdapter.notifyDataSetChanged();
@@ -95,19 +98,19 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mLoadMoreItemAdapter);
     }
 
-    //    private void testWrapper() {
-    //
-    //        XiaoLongNv xiaoLongNv = new XiaoLongNv();
-    //        //小龙女先对杨过『说』  我恨你  后再暴击
-    //        ShuoWrapper xLNshuoWrapper = new ShuoWrapper(xiaoLongNv, "小龙女：我恨你");
-    //        xLNshuoWrapper.gongJi();
-    //
-    //        YangGuo yangGuo = new YangGuo();
-    //        //杨过对小龙女『说』    我爱你  后再暴击
-    //        //代理:
-    //        //装饰：保持原有功能的基础上，在前面或后面添加新的功能，甚至可以重写原有功能
-    //        ShuoWrapper ygShuoWrapper = new ShuoWrapper(yangGuo, "杨过：我爱你");
-    //        ygShuoWrapper.gongJi();
-    //
-    //    }
+    private void testWrapper() {
+
+        XiaoLongNv xiaoLongNv = new XiaoLongNv();
+        //小龙女先对杨过『说』  我恨你  后再暴击
+        ShuoWrapper xLNshuoWrapper = new ShuoWrapper(xiaoLongNv, "小龙女：我恨你");
+        xLNshuoWrapper.gongJi();
+
+        YangGuo yangGuo = new YangGuo();
+        //杨过对小龙女『说』    我爱你  后再暴击
+        //代理:
+        //装饰：保持原有功能的基础上，在前面或后面添加新的功能，甚至可以重写原有功能
+        ShuoWrapper ygShuoWrapper = new ShuoWrapper(yangGuo, "杨过：我爱你");
+        ygShuoWrapper.gongJi();
+
+    }
 }

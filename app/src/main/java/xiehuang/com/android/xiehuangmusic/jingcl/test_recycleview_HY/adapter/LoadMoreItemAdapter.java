@@ -51,10 +51,10 @@ public class LoadMoreItemAdapter<T> extends RecyclerView.Adapter<RecyclerView.Vi
             ProgressBar loadingPro = holder.getView(R.id.loading_progressBar);
 
             //没有网络
-            if (true) {
-                loadingPro.setVisibility(View.GONE);
-                loadingText.setText("网络未连接");
-            }
+//            if (true) {
+//                loadingPro.setVisibility(View.GONE);
+//                loadingText.setText("网络未连接");
+//            }
             //没有更多数据
             if (mLoadMoreEntity == false) {
                 loadingPro.setVisibility(View.GONE);

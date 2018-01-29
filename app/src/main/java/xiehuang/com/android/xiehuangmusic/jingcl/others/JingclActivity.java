@@ -7,6 +7,7 @@ import android.view.View;
 
 import xiehuang.com.android.xiehuangmusic.R;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.activity.MultiRecycleViewActivity;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_scan.ScanMusicActivity;
 
 public class JingclActivity extends AppCompatActivity {
 
@@ -18,5 +19,9 @@ public class JingclActivity extends AppCompatActivity {
 
     public void toRecycleViewPage(View view) {
         startActivity(new Intent(this, MultiRecycleViewActivity.class));
+    }
+
+    public void toScan(View view) {
+        startActivity(new Intent(this, ScanMusicActivity.class));
     }
 }

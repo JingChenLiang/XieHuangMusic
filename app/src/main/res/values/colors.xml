@@ -8,4 +8,5 @@
 
     <color name="bottom_loading_text_color">#99000000</color>
     <color name="bottom_no_net_text_color">#99000000</color>
+    <color name="scan_font_color">#0000ff</color>
 </resources>
