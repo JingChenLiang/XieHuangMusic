@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gionee.video.discover.infostream.BottomLoadingView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_loading_height"
+    android:id="@+id/card_item_refresh_background_layout">
+
+    <LinearLayout
+        android:id="@+id/bottom_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_loading_height"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <amigo.widget.AmigoProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="@dimen/bottom_loading_progress_width"
+            android:layout_height="@dimen/bottom_loading_progress_width"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/bottom_loading_text_margin_start"
+            android:text="@string/bottom_loading"
+            android:textColor="@color/bottom_loading_text_color"
+            android:textSize="@dimen/bottom_loading_text_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bottom_loading_no_net"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_no_net_view_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/bottom_no_net_text_color"
+        android:text="@string/main_network_warn"
+        android:textSize="@dimen/bottom_no_net_text_size" />
+
+    <TextView
+        android:id="@+id/bottom_loading_failed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_no_net_view_height"
+        android:gravity="center"
+        android:textColor="@color/bottom_no_net_text_color"
+        android:text="@string/data_load_fail"
+        android:textSize="@dimen/bottom_no_net_text_size" />
+
+</com.gionee.video.discover.infostream.BottomLoadingView>

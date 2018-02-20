@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+        <include
+            android:id="@+id/refreshing"
+            layout="@layout/header_layout"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@null"
+            android:scrollbars="none">
+        </android.support.v7.widget.RecyclerView>
+
+        <com.gionee.video.discover.infostream.HeaderHintViewContainer
+            android:id="@+id/refresh_count_hint"
+            android:layout_width="match_parent"
+             android:layout_height="@dimen/recyclerview_header_hint_height"
+            android:background="@color/header_hint_view_color"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            />
+</merge>

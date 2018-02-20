@@ -1,0 +1,218 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textsize_sixteen">16dp</dimen>
+    <integer name="rename_edittext_maxlength">50</integer>
+    <dimen name="adjust_width">190dp</dimen>
+    <dimen name="titlebar_height">50dip</dimen>
+    <dimen name="video_width">166dip</dimen>
+    <!--dimen name="album_width">100dip</dimen-->
+    <dimen name="album_width">166dip</dimen>
+    <dimen name="search_icon_width">110dip</dimen>
+
+    <dimen name="search_now_height">56dip</dimen>
+    <dimen name="search_history_height">114dip</dimen>
+    <dimen name="search_history_min_height">38dip</dimen>
+    <dimen name="search_history_mid_height">76dip</dimen>
+    <dimen name="search_hotsong_height">80dip</dimen>
+    <dimen name="search_now_margin_top">16dip</dimen>
+    <dimen name="search_view_margin_top">14dip</dimen>
+    <dimen name="search_view_margin_bottom">28dip</dimen>
+    <dimen name="search_history_margin_top">14dip</dimen>
+    <dimen name="search_hotsong_margin_top">14dip</dimen>
+    <dimen name="search_divider_margin_left">16dip</dimen>    
+
+    <!-- Umeng -->
+    <dimen name="feedback_tocontact_margin_horizon">8dip</dimen>
+    <dimen name="feedback_tocontact_margin_vertical">8dip</dimen>
+    <dimen name="feedback_tocontact_text_padding_left">5dp</dimen>
+    <dimen name="feedback_tocontact_text_pading_bottom">1dip</dimen>
+    <dimen name="feedback_tocontact_arrow_width">28dip</dimen>
+    <dimen name="feedback_tocontact_arrow_height">34dip</dimen>
+    <dimen name="feedback_tocontact_arrow_margin_right">5dp</dimen>
+    <dimen name="feedback_tocontact_arrow_padding_vertical">7dip</dimen>
+    <dimen name="feedback_listview_margin_bottom">6dip</dimen>
+    <dimen name="feedback_send_wrap_padding_horizon">8dip</dimen>
+    <dimen name="feedback_send_wrap_padding_vertical">8dip</dimen>
+    <dimen name="feedback_send_width">60dip</dimen>
+    <dimen name="feedback_send_height">38dip</dimen>
+    <dimen name="feedback_edittext_margin_right">8dip</dimen>
+    <dimen name="feedback_edittext_max_height">150dip</dimen>
+    <dimen name="feedback_edittext_padding">8dip</dimen>
+    <dimen name="feedback_contact_edittext_margin_horizon">8dip</dimen>
+    <dimen name="feedback_contatc_edittext_margin_vertical">8dip</dimen>
+    <dimen name="feedback_contact_edittext_height">200dip</dimen>
+    <dimen name="feedback_contact_edittext_padding">10dip</dimen>
+    <dimen name="feedback_contact_edittext_margin_bottom">5dip</dimen>
+    <dimen name="feedback_contact_edittext_textsize">14sp</dimen>
+    <dimen name="feedback_contact_btn_height_">45dp</dimen>
+    <dimen name="feedback_contact_btn_textsize">18sp</dimen>
+    <dimen name="feedback_list_time_margin_bottom">6dip</dimen>
+    <dimen name="feedback_list_time_margin_top">12dip</dimen>
+    <dimen name="feedback_list_item_time_textsize">10sp</dimen>
+    <dimen name="feedback_list_item_content_maxwidth">250dip</dimen>
+    <dimen name="feedback_list_item_content_textsize">16sp</dimen>
+    <dimen name="feedback_list_item_line_spacing">5dip</dimen>
+    <dimen name="feedback_list_item_margin_horizonal">8dip</dimen>
+    <dimen name="feedback_list_item_padding_top_horizonal">8dip</dimen>
+    <dimen name="feedback_list_item_left">8dip</dimen>
+    
+    <dimen name="listview_firstline_textview_size">14sp</dimen>
+    <dimen name="listview_secondline_textview_size">11sp</dimen>
+    <dimen name="listview_padding_left">20dip</dimen>
+    
+    <dimen name="button_layout_padding_bottom">4dip</dimen>
+    <dimen name="button_padding">14dip</dimen>
+    
+    <dimen name="feedback_list_item_padding_bottom_horizonal">8dip</dimen>
+    <dimen name="feedback_list_item_padding_left_horizonal">18dip</dimen>
+    <dimen name="feedback_list_item_padding_right_horizonal">8dip</dimen>
+    <dimen name="feedback_view_height">2dp</dimen>
+    <!-- Gionee <jingcl> <2015-12-18> add start-->
+    <dimen name ="music_gallery_page_height">203dip</dimen>
+    <dimen name="artist_fg_width_big">170dp</dimen>
+    <dimen name="artist_fg_width_small">83dp</dimen>
+    <!-- Gionee <jingcl> <2015-12-18> add end -->
+    <dimen name="hot_banner_point_size">17dp</dimen>
+    <dimen name="hot_pic_title_top">166dp</dimen>
+    <dimen name="hot_pic_title_bottom">166dp</dimen>
+
+    <!-- ads -->
+    <dimen name="hot_area_horizontal_margin">0dp</dimen>
+    <dimen name="hot_area_vertical_margin">40dp</dimen>
+    <dimen name="ad_margin_top_bottom">8dp</dimen>
+    <!-- client -->
+    <dimen name="letv_dimens_text_5">5dp</dimen>
+    <dimen name="letv_dimens_text_8">8dp</dimen>
+    <dimen name="letv_dimens_text_10">10dp</dimen>
+    <dimen name="letv_dimens_text_11">11dp</dimen>
+    <dimen name="letv_dimens_text_12">12dp</dimen>
+    <dimen name="letv_dimens_text_13">13dp</dimen>
+    <dimen name="letv_dimens_text_14">14dp</dimen>
+    <dimen name="letv_dimens_text_15">15dp</dimen>
+    <dimen name="letv_dimens_text_16">16dp</dimen>
+    <dimen name="letv_dimens_text_17">17dp</dimen>
+    <dimen name="letv_dimens_text_18">18dp</dimen>
+    <dimen name="letv_dimens_text_19">19dp</dimen>
+    <dimen name="letv_dimens_text_20">20dp</dimen>
+    <dimen name="letv_dimens_text_21">21dp</dimen>
+    <dimen name="letv_dimens_text_22">22dp</dimen>
+    <dimen name="letv_dimens_text_30">30dp</dimen>
+    <dimen name="letv_dimens_text_31">31dp</dimen>
+    <dimen name="letv_dimens_text_33">33dp</dimen>
+    <dimen name="letv_dimens_text_34">34dp</dimen>
+    <dimen name="letv_dimens_text_45">45dp</dimen>
+    <dimen name="half_play_intro_content">12dp</dimen>
+    <!-- 部分共同间距s -->
+    <dimen name="letv_dimens_space_15">15dp</dimen>
+    <dimen name="letv_dimens_space_10">10dp</dimen>
+    <!-- corelibs -->
+    <!-- 电视直播 start-->
+    <dimen name="lv_double_listview_margin_top">10dp</dimen>
+    <dimen name="lv_double_listview_margin_right">10dp</dimen>
+    
+    <dimen name="lv_title_listview_width">103dp</dimen>
+    <dimen name="lv_title_item_height">54dp</dimen>
+    <dimen name="lv_title_item_imageview_marginLeft">8dp</dimen>
+    <dimen name="lv_title_item_textview_paddingLeft">4dp</dimen>
+
+    <!-- 设计给的下拉刷新为60dp，但是item还多出10dp，所以此处为50dp -->
+    <dimen name="lv_content_listview_header_height">50dp</dimen>
+    <!-- 由于在header和第一个item之间还有10dp，为了让内容上下居中，则需要下拉刷新的view向下5dp -->
+    <dimen name="lv_content_listview_header_margin_top">5dp</dimen>
+    
+    <dimen name="lv_content_item_and_divider_height">159dp</dimen>
+    <dimen name="lv_content_item_widgh">247dp</dimen>
+    <dimen name="lv_content_item_height">149dp</dimen>
+    <dimen name="lv_content_item_dividerHeight">10dp</dimen>
+    <dimen name="lv_content_item_video_name_text_height">24dp</dimen>
+    <dimen name="lv_content_item_video_name_text_paddingLeft">9dp</dimen>
+    <dimen name="lv_content_item_video_name_text_paddingRight">32dp</dimen>
+    <dimen name="lv_content_item_video_name_text_size">13sp</dimen>
+    <dimen name="lv_content_item_shadow_height">60dp</dimen>
+    <dimen name="lv_content_item_epgs_name_text_paddingBottom">7dp</dimen>
+    <dimen name="lv_content_item_epgs_name_text_paddingLeft">9dp</dimen>
+    <dimen name="lv_content_item_epgs_name_text_size">12sp</dimen>
+    
+    
+    <dimen name="rllistview_footer_pull_enable_delta">40dip</dimen>
+    <dimen name="footview_height">35dp</dimen>
+    <!-- margin top titlebar -->
+    <dimen name="live_margin_top">25dp</dimen>
+    <!-- 状态栏statusbar高度 -->
+    <dimen name="video_statusbar_height">25dp</dimen>
+    <!-- 状态栏statusbar背景图片 -->
+    <dimen name="video_statusbar_bg_height">25dp</dimen>
+    <dimen name="video_statusbar_bg_width">25dp</dimen>
+    <!-- 电视直播titlebar高度 -->
+    <dimen name="live_titlebar_height">50dp</dimen>
+    <!-- 电视直播bottombar高度 -->
+    <dimen name="live_bottombar_height">48dp</dimen>
+    <!-- 电视直播 end -->
+    <!-- 视频titlebar高度 -->
+    <dimen name="video_titlebar_height">50dp</dimen>
+    <dimen name="max_y_overscroll_distance">151dp</dimen>
+    <!-- 视频setting item高度 -->
+    <dimen name="video_setting_height">56dp</dimen>
+    <!-- 视频setting item 左距距离 -->
+    <dimen name="video_setting_margin_left">16dp</dimen>
+    <!-- 视频setting item 右边距距离 -->
+    <dimen name="video_setting_margin_right">14dp</dimen>
+    
+    <!-- video hall search begin -->
+    <dimen name="video_hall_hot_search_num_text_size">11sp</dimen>
+    <!-- video hall widget begin -->
+    <dimen name="videohall_widget_margin">0dp</dimen>
+    <!-- margin top titlebar -->
+    <dimen name="videohall_title_margin_top">18dp</dimen>
+    <dimen name="videohall_margin_top">24dp</dimen>
+    <!-- search result variety height -->
+    <dimen name="search_result_variety_height">30dp</dimen>
+    
+    <!-- 推荐页面圆角大小 -->
+    <dimen name="hotpage_corners">2dp</dimen>
+    
+    <!-- 推荐页面普通item视频类型的描边宽度 -->
+    <dimen name="hotpage_commom_item_label_stroke_width">1px</dimen>
+    
+    <!-- 搜索结果界面分割线的高度 -->
+    <dimen name="search_result_split_line_height">2px</dimen>
+    
+    
+    <dimen name="action_bar_title_marginleft">16dp</dimen>
+    <dimen name="action_bar_back_width">50dp</dimen>
+        
+    <!-- 推荐页面listview的分割线高度 -->
+    <dimen name="hotpage_listview_divider_height">10dp</dimen>
+    <dimen name="gn_action_bar_tab_textsize">14sp</dimen>
+    <dimen name="gn_action_bar_title_text_size">18sp</dimen>
+
+ <!--          -->
+    <dimen name="header_hight">39dp</dimen>
+    <dimen name="recyclerview_header_hint_height">30dp</dimen>
+    <dimen name="header_hint_view_textsize">12dp</dimen>
+    <dimen name="news_card_margin_right">16dp</dimen>
+    <dimen name="bottom_loading_text_margin_start">6dp</dimen>
+    <dimen name="bottom_loading_text_size">13sp</dimen>
+    <dimen name="bottom_loading_progress_width">16dp</dimen>
+    <dimen name="bottom_no_net_view_height">30dp</dimen>
+    <dimen name="bottom_no_net_text_size">13sp</dimen>
+    <dimen name="bottom_loading_height">48dp</dimen>
+    <dimen name="card_item_divider_height">8dp</dimen>
+
+    <dimen name="card_item_margin_left">0dp</dimen>
+    <dimen name="card_item_margin_right">0dp</dimen>
+    <dimen name="card_item_video_playTime_margin_start">10dp</dimen>
+    <dimen name="card_item_video_playTime_margin_bottom">10dp</dimen>
+    <dimen name="borderTextView_padding_leftOrRight">8dp</dimen>
+    <dimen name="borderTextView_padding_topOrBottom">1dp</dimen>
+    <dimen name="card_item_video_playTime_textSize">8dp</dimen>
+    <dimen name="borderTextView_strokeWidth">2px</dimen>
+    <dimen name="borderTextView_strokeCorner">5dp</dimen>
+    <dimen name="card_item_paddingStartOrEnd">15dp</dimen>
+    <dimen name="card_item_paddingTopOrBottom">12dp</dimen>
+    <dimen name="card_item_bottom_layout_marginTop">8dp</dimen>
+
+</resources>
