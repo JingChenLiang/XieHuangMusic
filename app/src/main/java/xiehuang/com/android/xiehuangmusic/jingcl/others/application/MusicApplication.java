@@ -7,7 +7,7 @@ import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
 
 /**
- * Created by erliang on 2017/12/19.
+ * Created by erliang on 2017/12/20.
  */
 
 public class MusicApplication extends Application {
