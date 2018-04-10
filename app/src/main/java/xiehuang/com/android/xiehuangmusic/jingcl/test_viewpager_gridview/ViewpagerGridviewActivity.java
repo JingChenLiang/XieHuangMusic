@@ -46,22 +46,22 @@ public class ViewpagerGridviewActivity extends AppCompatActivity {
 
     ArrayList<Item> items = new ArrayList<Item>();
     int[] drawableID = {
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share,
-            R.drawable.play_menu_share
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small,
+            R.drawable.play_menu_collection_small
     };
     private void initData() {
         for(int i=0; i<10; i++) {
             Item item = new Item();
             item.setDrawabelID(drawableID[i]);
-            item.setDrawableText("第" + (i+1) +"个条目");
+            item.setDrawableText((i+1) + "");
             items.add(item);
         }
     }

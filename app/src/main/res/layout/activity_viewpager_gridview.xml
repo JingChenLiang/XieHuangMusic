@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +9,8 @@
     <xiehuang.com.android.xiehuangmusic.jingcl.test_viewpager_gridview.AmigoAutoMaticPageGridView
         android:id="@+id/gridview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#c68f4e"/>
+        android:layout_height="wrap_content"
+        android:background="#c68f4e"
+        android:paddingTop="17dp"/>
 
 </android.support.constraint.ConstraintLayout>
