@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:2:1-12:12
 MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:2:1-12:12
@@ -24,25 +24,143 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.grad
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f4451042bd6387c596f03ff8bf2314be/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/59fab6fe13fd312eeb9e6853c699bdc5/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/125d77ddc21256a7c048527c236df0a6/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
 	package
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:3:11-55
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-69:12
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:11-69
+permission#com.android.music.permission.C2D_MESSAGE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:5:5-111
+	android:protectionLevel
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:5:73-108
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:5:17-72
+uses-permission#com.gionee.youju.statistics.permission.READ_PROVIDER
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:6:5-92
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:6:22-89
+uses-permission#com.gionee.youju.statistics.permission.WRITE_PROVIDER
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:7:5-93
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:7:22-90
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:9:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:10:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:11:22-65
+uses-permission#com.gionee.alarm.permission.SET_ACCURATE_WAKE_ALARM
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:12:5-91
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:12:22-88
+uses-permission#android.permission.INTERNET
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:17:22-77
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:22-63
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:21:22-72
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:22-69
+uses-permission#android.permission.NFC
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:23:5-62
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:23:22-59
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:22-68
+uses-permission#com.android.music.permission.C2D_MESSAGE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:25:22-77
+uses-permission#com.gionee.cloud.permission.RECEIVE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:26:22-72
+uses-permission#com.gionee.launcher.permission.PRESSURE_SENSOR
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:27:5-85
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:27:22-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:28:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:30:5-67
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:30:22-65
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:32:5-83
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:32:22-81
+uses-permission#com.android.launcher.permission.READ_MISS_INFO
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:34:5-86
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:34:22-83
+uses-permission#com.waves.maxxaudio.WavesFXProvider.PERMISSION
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:38:5-86
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:38:22-83
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:40:5-78
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:40:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:41:5-67
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:41:22-65
 application
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:5:5-28:19
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:44:5-67:19
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:22:5-26:19
@@ -72,49 +190,49 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/smile/.gradle/cac
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/125d77ddc21256a7c048527c236df0a6/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/125d77ddc21256a7c048527c236df0a6/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:50:9-35
 	android:label
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:48:9-41
 	android:roundIcon
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:49:9-54
 	android:icon
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:8:9-49
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:47:9-49
 	android:allowBackup
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:46:9-35
 	android:theme
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:51:9-40
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:6:9-67
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:45:9-67
 activity#xiehuang.com.android.xiehuangmusic.jingcl.others.homepage.MainActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:13:9-19:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:52:9-58:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:13:19-70
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:52:19-70
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:53:13-57:29
 action#android.intent.action.MAIN
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:15:17-68
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:54:17-68
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:54:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:17:17-76
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:56:17-76
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:56:27-74
 activity#xiehuang.com.android.xiehuangmusic.jingcl.test_scan.ScanMusicActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:9-21:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:59:9-60:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:20:19-69
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:59:19-69
 activity#xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.activity.MultiRecycleViewActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:9-23:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:61:9-62:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:22:19-95
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:61:19-95
 activity#xiehuang.com.android.xiehuangmusic.jingcl.others.JingclActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:9-25:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:63:9-64:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:24:19-63
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:63:19-63
 activity#xiehuang.com.android.xiehuangmusic.zhuwl.ZhuwlActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:26:9-27:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:65:9-66:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:26:19-54
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:65:19-54
 uses-sdk
 INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml

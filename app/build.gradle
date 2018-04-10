@@ -29,6 +29,23 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.android.support:design:26.1.0'
 
+    /**
+     * okhttp
+     * retrofit
+     *
+     * rxjava
+     *
+     * glide
+     *
+     * eventbus
+     *
+     * ---
+     * source code:[设计模式][mvp]
+     * ---
+     * 算法
+     * ---
+     */
+
     //recyvleview
     compile 'com.android.support:recyclerview-v7:26.1.0'
     //glide异步加载图像

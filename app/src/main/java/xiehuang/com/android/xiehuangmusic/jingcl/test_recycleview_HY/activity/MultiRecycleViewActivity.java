@@ -8,10 +8,15 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
 
+import com.orhanobut.logger.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import xiehuang.com.android.xiehuangmusic.R;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter.CommonAdapter;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.adapter.HeaderAndFooterItemAdapter;
@@ -42,8 +47,34 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
 
         testWrapper();
 
+        getDatasync();
+
         initView();
 
+    }
+
+    public void getDatasync() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    //创建OkHttpClient对象
+                    OkHttpClient client = new OkHttpClient();
+                    Request request = new Request.Builder()
+                            .url("http://www.baidu.com")//请求接口。如果需要传参拼接到接口后面。
+                            .build();//创建Request 对象
+                    Response response = null;
+                    response = client.newCall(request).execute();//得到Response 对象
+                    if (response.isSuccessful()) {
+                        Logger.i("response.code()==" + response.code());
+                        Logger.i("response.message()==" + response.message());
+                        Logger.i("res==" + response.body().string());
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
     }
 
     private void initView() {
@@ -99,7 +130,6 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
     }
 
     private void testWrapper() {
-
         XiaoLongNv xiaoLongNv = new XiaoLongNv();
         //小龙女先对杨过『说』  我恨你  后再暴击
         ShuoWrapper xLNshuoWrapper = new ShuoWrapper(xiaoLongNv, "小龙女：我恨你");
@@ -113,4 +143,5 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
         ygShuoWrapper.gongJi();
 
     }
+
 }
