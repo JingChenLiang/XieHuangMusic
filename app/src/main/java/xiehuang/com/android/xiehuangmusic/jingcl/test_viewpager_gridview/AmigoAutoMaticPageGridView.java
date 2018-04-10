@@ -30,14 +30,18 @@ public class AmigoAutoMaticPageGridView extends LinearLayout {
 
     private static final int GRID_VIEW_COLUMNS_DEFAULT = 4;
     private static final int GRID_VIEW_LINES_DEFAULT = 2;
-    private static final int RADIO_BUTTON_PADDING_IN_DP = 5;
-    private static final int GRID_VIEW_PADDING_RIGHT = 20;
-    private static final int GRID_VIEW_PADDING_LEFT = 20;
-    private static final int GRID_VIEW_COLUMN_WIDTH_IN_DP = 80;
-    private static final int GRID_VERTICAL_SPACING = 8;
+
+    private static final int RADIO_BUTTON_PADDING_IN_DP = 4;
+
+    private static final int GRID_VIEW_PADDING_RIGHT = 22;
+    private static final int GRID_VIEW_PADDING_LEFT = 22;
+
+    private static final int GRID_VERTICAL_SPACING = 15;
     private static final int GRID_HORIZONTAL_SPACING = 0;
-    private static final int GRID_INDICATOR_MARGIN_TOP = 16;
-    private static final int GRID_INDICATOR_MARGIN_BOTTOM = 16;
+
+    private static final int GRID_INDICATOR_MARGIN_TOP = 15;
+    private static final int GRID_INDICATOR_MARGIN_BOTTOM = 17;
+
     private static final int DEFAULT_LOAD_PAGE_COUNT = 6;
     // 分页所用
     private ViewPager mViewPager;
