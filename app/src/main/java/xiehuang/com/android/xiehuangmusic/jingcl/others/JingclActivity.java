@@ -8,6 +8,7 @@ import android.view.View;
 import xiehuang.com.android.xiehuangmusic.R;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.activity.MultiRecycleViewActivity;
 import xiehuang.com.android.xiehuangmusic.jingcl.test_scan.ScanMusicActivity;
+import xiehuang.com.android.xiehuangmusic.jingcl.test_viewpager_gridview.ViewpagerGridviewActivity;
 
 public class JingclActivity extends AppCompatActivity {
 
@@ -23,5 +24,9 @@ public class JingclActivity extends AppCompatActivity {
 
     public void toScan(View view) {
         startActivity(new Intent(this, ScanMusicActivity.class));
+    }
+
+    public void toViewPagerGridView(View view) {
+        startActivity(new Intent(this, ViewpagerGridviewActivity.class));
     }
 }

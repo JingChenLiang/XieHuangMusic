@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="amigoAutoMaticGridViewDefaultStyle">
+        <item name="amigoAutoLine">3</item>
+        <item name="amigoAutoColumn">4</item>
+        <item name="amigoAutoButton">@drawable/guide_dot_black</item>
+    </style>
+
 </resources>
