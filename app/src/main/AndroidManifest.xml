@@ -71,6 +71,8 @@
         </activity>
         <activity android:name=".jingcl.test_viewpager_gridview.ViewpagerGridviewActivity">
         </activity>
+        <activity android:name=".jingcl.test_okhttp.TestOkHttpActivity">
+        </activity>
     </application>
 
 </manifest>

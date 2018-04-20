@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:2:1-12:12
 MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:2:1-12:12
@@ -24,20 +24,20 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.grad
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f4451042bd6387c596f03ff8bf2314be/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/59fab6fe13fd312eeb9e6853c699bdc5/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/125d77ddc21256a7c048527c236df0a6/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
 	package
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:3:11-55
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-76:12
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:11-69
@@ -160,7 +160,7 @@ ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/ma
 	android:name
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:46:22-65
 application
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:49:5-74:19
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:49:5-76:19
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:22:5-26:19
@@ -237,6 +237,10 @@ activity#xiehuang.com.android.xiehuangmusic.jingcl.test_viewpager_gridview.Viewp
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:72:9-73:20
 	android:name
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:72:19-91
+activity#xiehuang.com.android.xiehuangmusic.jingcl.test_okhttp.TestOkHttpActivity
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:74:9-75:20
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:74:19-72
 uses-sdk
 INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
