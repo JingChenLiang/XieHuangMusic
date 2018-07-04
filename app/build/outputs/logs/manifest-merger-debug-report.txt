@@ -1,43 +1,45 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
+MERGED from [com.android.databinding:adapters:1.3.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/fcf38e807c8c343aed3da61019be1dce/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.databinding:library:1.3.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/c896557509c22ea20ddc04a61fe80fd5/AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:17:1-31:12
-MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:2:1-12:12
-MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:17:1-31:12
 MERGED from [io.reactivex:rxandroid:1.2.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/ac50963be2f5d25385ab823bf3b5af4a/AndroidManifest.xml:15:1-21:12
 MERGED from [com.squareup.sqlbrite:sqlbrite:1.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/sqlbrite-1.1.1.aar/7630ee8bf22e15b3669bcb9f777a0ad2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.orhanobut:logger:2.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/17452f4a4de2fef9552bc1cba0ecdf3e/AndroidManifest.xml:2:1-8:12
 MERGED from [com.jakewharton:butterknife:8.5.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/f212c593141c25ec3333f6ac08aa17ed/AndroidManifest.xml:2:1-7:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:2:1-12:12
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/smile/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/26b977338cb0346460a2fcc22fec3369/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:transition:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4b367347fa8749773238ae0fd837a6c4/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/42e54685f4ed2fc8dfb718a7b3a53a0e/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c6b58482618efd1c90e17636823e75ea/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2a97beb9a8b48bc75931b99d84cab22b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fc385dcf7fa06096ab77702cc83fc73/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b710c17e086a801887dc85803ebd373/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f4451042bd6387c596f03ff8bf2314be/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/59fab6fe13fd312eeb9e6853c699bdc5/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/125d77ddc21256a7c048527c236df0a6/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
 	package
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:3:11-55
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-78:12
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:1-87:12
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:2:11-69
@@ -159,14 +161,26 @@ uses-permission#android.permission.BLUETOOTH
 ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:46:5-67
 	android:name
 		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:46:22-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:49:5-70
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:49:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:50:5-70
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:50:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:51:5-71
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:51:22-69
 application
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:49:5-76:19
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:52:5-85:19
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/smile/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/26b977338cb0346460a2fcc22fec3369/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/smile/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/26b977338cb0346460a2fcc22fec3369/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:transition:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4b367347fa8749773238ae0fd837a6c4/AndroidManifest.xml:22:5-26:19
@@ -175,12 +189,12 @@ MERGED from [com.android.support:support-v4:26.1.0] /Users/smile/.gradle/caches/
 MERGED from [com.android.support:support-v4:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/42e54685f4ed2fc8dfb718a7b3a53a0e/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c6b58482618efd1c90e17636823e75ea/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c6b58482618efd1c90e17636823e75ea/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2a97beb9a8b48bc75931b99d84cab22b/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2a97beb9a8b48bc75931b99d84cab22b/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fc385dcf7fa06096ab77702cc83fc73/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fc385dcf7fa06096ab77702cc83fc73/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b710c17e086a801887dc85803ebd373/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b710c17e086a801887dc85803ebd373/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f4451042bd6387c596f03ff8bf2314be/AndroidManifest.xml:25:5-29:19
@@ -190,69 +204,79 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/smile/.gradle/cac
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/125d77ddc21256a7c048527c236df0a6/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/125d77ddc21256a7c048527c236df0a6/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:55:9-35
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:58:9-35
 	android:label
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:53:9-41
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:56:9-41
 	android:roundIcon
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:54:9-54
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:57:9-54
 	android:icon
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:52:9-49
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:55:9-49
 	android:allowBackup
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:51:9-35
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:54:9-35
 	android:theme
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:56:9-40
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:59:9-40
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:50:9-67
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:53:9-67
 activity#xiehuang.com.android.xiehuangmusic.jingcl.others.homepage.MainActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:57:9-63:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:60:9-66:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:57:19-70
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:60:19-70
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:58:13-62:29
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:61:13-65:29
 action#android.intent.action.MAIN
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:59:17-68
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:62:17-68
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:59:25-66
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:62:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:61:17-76
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:64:17-76
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:61:27-74
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:64:27-74
 activity#xiehuang.com.android.xiehuangmusic.jingcl.test_scan.ScanMusicActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:64:9-65:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:67:9-68:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:64:19-69
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:67:19-69
 activity#xiehuang.com.android.xiehuangmusic.jingcl.test_recycleview_HY.activity.MultiRecycleViewActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:66:9-67:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:69:9-70:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:66:19-95
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:69:19-95
 activity#xiehuang.com.android.xiehuangmusic.jingcl.others.JingclActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:68:9-69:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:71:9-72:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:68:19-63
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:71:19-63
 activity#xiehuang.com.android.xiehuangmusic.zhuwl.ZhuwlActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:70:9-71:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:73:9-74:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:70:19-54
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:73:19-54
 activity#xiehuang.com.android.xiehuangmusic.jingcl.test_viewpager_gridview.ViewpagerGridviewActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:72:9-73:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:75:9-76:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:72:19-91
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:75:19-91
 activity#xiehuang.com.android.xiehuangmusic.jingcl.test_okhttp.TestOkHttpActivity
-ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:74:9-75:20
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:77:9-78:20
 	android:name
-		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:74:19-72
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:77:19-72
+activity#xiehuang.com.android.xiehuangmusic.jingcl.test_linkedlist.TestLinkedListActivity
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:79:9-80:20
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:79:19-80
+activity#xiehuang.com.android.xiehuangmusic.jingcl.test_mvp.UserLoginActivity
+ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:81:9-84:20
+	android:label
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:83:13-62
+	android:name
+		ADDED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml:82:13-62
 uses-sdk
 INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:1.3.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/fcf38e807c8c343aed3da61019be1dce/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.3.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/fcf38e807c8c343aed3da61019be1dce/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/c896557509c22ea20ddc04a61fe80fd5/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/c896557509c22ea20ddc04a61fe80fd5/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:21:5-23:62
-MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:8:5-10:41
-MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:8:5-10:41
-MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:21:5-23:78
 MERGED from [io.reactivex:rxandroid:1.2.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/ac50963be2f5d25385ab823bf3b5af4a/AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex:rxandroid:1.2.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/ac50963be2f5d25385ab823bf3b5af4a/AndroidManifest.xml:19:5-43
 MERGED from [com.squareup.sqlbrite:sqlbrite:1.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/sqlbrite-1.1.1.aar/7630ee8bf22e15b3669bcb9f777a0ad2/AndroidManifest.xml:5:5-43
@@ -261,8 +285,12 @@ MERGED from [com.orhanobut:logger:2.1.1] /Users/smile/.gradle/caches/transforms-
 MERGED from [com.orhanobut:logger:2.1.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/17452f4a4de2fef9552bc1cba0ecdf3e/AndroidManifest.xml:6:5-43
 MERGED from [com.jakewharton:butterknife:8.5.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/f212c593141c25ec3333f6ac08aa17ed/AndroidManifest.xml:5:5-43
 MERGED from [com.jakewharton:butterknife:8.5.1] /Users/smile/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/f212c593141c25ec3333f6ac08aa17ed/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.XanderWang:elasticity:1.0.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/elasticity-1.0.0.aar/eeb7e301ef385975eb304183cae1a758/AndroidManifest.xml:8:5-10:41
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:8:5-10:41
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/smile/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/bac64725612a717cfad927280b55d8d4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/smile/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/26b977338cb0346460a2fcc22fec3369/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/smile/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/26b977338cb0346460a2fcc22fec3369/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:transition:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4b367347fa8749773238ae0fd837a6c4/AndroidManifest.xml:20:5-44
@@ -271,12 +299,12 @@ MERGED from [com.android.support:support-v4:26.1.0] /Users/smile/.gradle/caches/
 MERGED from [com.android.support:support-v4:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/42e54685f4ed2fc8dfb718a7b3a53a0e/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c6b58482618efd1c90e17636823e75ea/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c6b58482618efd1c90e17636823e75ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2a97beb9a8b48bc75931b99d84cab22b/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2a97beb9a8b48bc75931b99d84cab22b/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fc385dcf7fa06096ab77702cc83fc73/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fc385dcf7fa06096ab77702cc83fc73/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b710c17e086a801887dc85803ebd373/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b710c17e086a801887dc85803ebd373/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f4451042bd6387c596f03ff8bf2314be/AndroidManifest.xml:21:5-23:61
@@ -299,22 +327,22 @@ INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src
 		INJECTED from /Users/smile/Downloads/AS_Workspace/MyGitHub/XieHuangMusic/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c7dc612f6efdf133837f8731c397a719/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4a4c996f650d6e3d1110d479045bb44a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4004eaa88468ab6e626ecb34353425ef/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4b367347fa8749773238ae0fd837a6c4/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4b367347fa8749773238ae0fd837a6c4/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/42e54685f4ed2fc8dfb718a7b3a53a0e/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/42e54685f4ed2fc8dfb718a7b3a53a0e/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c6b58482618efd1c90e17636823e75ea/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c6b58482618efd1c90e17636823e75ea/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2a97beb9a8b48bc75931b99d84cab22b/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2a97beb9a8b48bc75931b99d84cab22b/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fc385dcf7fa06096ab77702cc83fc73/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fc385dcf7fa06096ab77702cc83fc73/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2d337915d87c9152ce98c3505b807bb0/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b710c17e086a801887dc85803ebd373/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b710c17e086a801887dc85803ebd373/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/smile/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f4451042bd6387c596f03ff8bf2314be/AndroidManifest.xml:26:9-28:38

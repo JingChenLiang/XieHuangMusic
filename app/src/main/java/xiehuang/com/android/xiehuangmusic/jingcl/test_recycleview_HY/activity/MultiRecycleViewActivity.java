@@ -130,17 +130,17 @@ public class MultiRecycleViewActivity extends AppCompatActivity {
     }
 
     private void testWrapper() {
-        XiaoLongNv xiaoLongNv = new XiaoLongNv();
-        //小龙女先对杨过『说』  我恨你  后再暴击
-        ShuoWrapper xLNshuoWrapper = new ShuoWrapper(xiaoLongNv, "小龙女：我恨你");
-        xLNshuoWrapper.gongJi();
 
-        YangGuo yangGuo = new YangGuo();
-        //杨过对小龙女『说』    我爱你  后再暴击
-        //代理:
+        XiaoLongNv xiaoLongNv = new XiaoLongNv();
+
+        ShuoWrapper xLNshuoWrapper = new ShuoWrapper(xiaoLongNv, "小龙女：我恨你");
+
+        xLNshuoWrapper.gongJi();//小龙女：先说，再攻击
+
         //装饰：保持原有功能的基础上，在前面或后面添加新的功能，甚至可以重写原有功能
+        YangGuo yangGuo = new YangGuo();
         ShuoWrapper ygShuoWrapper = new ShuoWrapper(yangGuo, "杨过：我爱你");
-        ygShuoWrapper.gongJi();
+        ygShuoWrapper.gongJi();//杨过：先说，再攻击
 
     }
 

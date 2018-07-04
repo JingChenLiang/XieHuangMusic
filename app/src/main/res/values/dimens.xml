@@ -22,7 +22,7 @@
     <dimen name="search_view_margin_bottom">28dip</dimen>
     <dimen name="search_history_margin_top">14dip</dimen>
     <dimen name="search_hotsong_margin_top">14dip</dimen>
-    <dimen name="search_divider_margin_left">16dip</dimen>    
+    <dimen name="search_divider_margin_left">16dip</dimen>
 
     <!-- Umeng -->
     <dimen name="feedback_tocontact_margin_horizon">8dip</dimen>
@@ -58,20 +58,20 @@
     <dimen name="feedback_list_item_margin_horizonal">8dip</dimen>
     <dimen name="feedback_list_item_padding_top_horizonal">8dip</dimen>
     <dimen name="feedback_list_item_left">8dip</dimen>
-    
+
     <dimen name="listview_firstline_textview_size">14sp</dimen>
     <dimen name="listview_secondline_textview_size">11sp</dimen>
     <dimen name="listview_padding_left">20dip</dimen>
-    
+
     <dimen name="button_layout_padding_bottom">4dip</dimen>
     <dimen name="button_padding">14dip</dimen>
-    
+
     <dimen name="feedback_list_item_padding_bottom_horizonal">8dip</dimen>
     <dimen name="feedback_list_item_padding_left_horizonal">18dip</dimen>
     <dimen name="feedback_list_item_padding_right_horizonal">8dip</dimen>
     <dimen name="feedback_view_height">2dp</dimen>
     <!-- Gionee <jingcl> <2015-12-18> add start-->
-    <dimen name ="music_gallery_page_height">203dip</dimen>
+    <dimen name="music_gallery_page_height">203dip</dimen>
     <dimen name="artist_fg_width_big">170dp</dimen>
     <dimen name="artist_fg_width_small">83dp</dimen>
     <!-- Gionee <jingcl> <2015-12-18> add end -->
@@ -112,7 +112,7 @@
     <!-- 电视直播 start-->
     <dimen name="lv_double_listview_margin_top">10dp</dimen>
     <dimen name="lv_double_listview_margin_right">10dp</dimen>
-    
+
     <dimen name="lv_title_listview_width">103dp</dimen>
     <dimen name="lv_title_item_height">54dp</dimen>
     <dimen name="lv_title_item_imageview_marginLeft">8dp</dimen>
@@ -122,7 +122,7 @@
     <dimen name="lv_content_listview_header_height">50dp</dimen>
     <!-- 由于在header和第一个item之间还有10dp，为了让内容上下居中，则需要下拉刷新的view向下5dp -->
     <dimen name="lv_content_listview_header_margin_top">5dp</dimen>
-    
+
     <dimen name="lv_content_item_and_divider_height">159dp</dimen>
     <dimen name="lv_content_item_widgh">247dp</dimen>
     <dimen name="lv_content_item_height">149dp</dimen>
@@ -135,8 +135,8 @@
     <dimen name="lv_content_item_epgs_name_text_paddingBottom">7dp</dimen>
     <dimen name="lv_content_item_epgs_name_text_paddingLeft">9dp</dimen>
     <dimen name="lv_content_item_epgs_name_text_size">12sp</dimen>
-    
-    
+
+
     <dimen name="rllistview_footer_pull_enable_delta">40dip</dimen>
     <dimen name="footview_height">35dp</dimen>
     <!-- margin top titlebar -->
@@ -160,7 +160,7 @@
     <dimen name="video_setting_margin_left">16dp</dimen>
     <!-- 视频setting item 右边距距离 -->
     <dimen name="video_setting_margin_right">14dp</dimen>
-    
+
     <!-- video hall search begin -->
     <dimen name="video_hall_hot_search_num_text_size">11sp</dimen>
     <!-- video hall widget begin -->
@@ -170,26 +170,26 @@
     <dimen name="videohall_margin_top">24dp</dimen>
     <!-- search result variety height -->
     <dimen name="search_result_variety_height">30dp</dimen>
-    
+
     <!-- 推荐页面圆角大小 -->
     <dimen name="hotpage_corners">2dp</dimen>
-    
+
     <!-- 推荐页面普通item视频类型的描边宽度 -->
     <dimen name="hotpage_commom_item_label_stroke_width">1px</dimen>
-    
+
     <!-- 搜索结果界面分割线的高度 -->
     <dimen name="search_result_split_line_height">2px</dimen>
-    
-    
+
+
     <dimen name="action_bar_title_marginleft">16dp</dimen>
     <dimen name="action_bar_back_width">50dp</dimen>
-        
+
     <!-- 推荐页面listview的分割线高度 -->
     <dimen name="hotpage_listview_divider_height">10dp</dimen>
     <dimen name="gn_action_bar_tab_textsize">14sp</dimen>
     <dimen name="gn_action_bar_title_text_size">18sp</dimen>
 
- <!--          -->
+    <!--          -->
     <dimen name="header_hight">39dp</dimen>
     <dimen name="recyclerview_header_hint_height">30dp</dimen>
     <dimen name="header_hint_view_textsize">12dp</dimen>

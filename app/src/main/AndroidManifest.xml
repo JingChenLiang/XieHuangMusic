@@ -45,7 +45,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
 
-    <!-- 广告 sdk需要的权限 -->
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/> <!-- 广告 sdk需要的权限 -->
     <application
         android:name=".jingcl.others.application.MusicApplication"
         android:allowBackup="true"
@@ -72,6 +75,12 @@
         <activity android:name=".jingcl.test_viewpager_gridview.ViewpagerGridviewActivity">
         </activity>
         <activity android:name=".jingcl.test_okhttp.TestOkHttpActivity">
+        </activity>
+        <activity android:name=".jingcl.test_linkedlist.TestLinkedListActivity">
+        </activity>
+        <activity
+            android:name=".jingcl.test_mvp.UserLoginActivity"
+            android:label="@string/title_activity_user_login">
         </activity>
     </application>
 
